@@ -6,6 +6,10 @@ A highly interactive, 3D-integrated, and heavily optimized developer portfolio b
 
 **Live Site:** https://pranav-port-v2-lzm3.vercel.app/
 
+## About
+
+This portfolio was built to present my work in a clear, memorable way while showing the kind of interfaces I like to create: fast, animated, and responsive. It combines project highlights, personal background, and live contact details in one place so visitors can quickly understand who I am and what I build.
+
 ## ✨ Key Features
 
 - **Zero-Latency Spline 3D Integration**: Features a heavy interactive 3D robot model on the home page, loaded asynchronously to guarantee zero render blocking and instant text appearance.
