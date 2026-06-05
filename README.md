@@ -4,6 +4,8 @@
 
 A highly interactive, 3D-integrated, and heavily optimized developer portfolio built for 2026 and beyond. This project serves as a showcase for my expertise as a MERN Stack Developer, AI Enthusiast, and SIH 2025 Finalist.
 
+**Live Site:** https://pranav-port-v2-lzm3.vercel.app/
+
 ## ✨ Key Features
 
 - **Zero-Latency Spline 3D Integration**: Features a heavy interactive 3D robot model on the home page, loaded asynchronously to guarantee zero render blocking and instant text appearance.
