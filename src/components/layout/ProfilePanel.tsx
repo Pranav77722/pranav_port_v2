@@ -184,7 +184,7 @@ export function ProfilePanel() {
             </div>
             <div>
               <p className="text-meta mb-1">Local Time</p>
-              <LiveClock />
+              <LiveClock timezone="Asia/Kolkata" label="IST" />
             </div>
             <div>
               <p className="text-meta mb-1">Socials</p>
