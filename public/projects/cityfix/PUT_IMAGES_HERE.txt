@@ -1,0 +1,15 @@
+You need to place your screenshot images in this exact folder!
+
+Make sure the files are named exactly like this:
+- Screenshot_20260531-004424.png
+- Screenshot_20260531-004446.png
+- Screenshot_20260531-004450.png
+- Screenshot_20260531-004455.png
+- Screenshot_20260531-004459.png
+- Screenshot_20260531-004504.png
+- Screenshot_20260531-004430.png
+- Screenshot_20260531-004434.png
+- Screenshot_20260531-004439.png
+- Screenshot_20260531-004442.png
+- Screenshot_20260531-004413.png
+- Screenshot_20260531-004427.png
