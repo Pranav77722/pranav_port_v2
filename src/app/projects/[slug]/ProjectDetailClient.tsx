@@ -33,7 +33,7 @@ export function ProjectDetailClient({ project }: { project: Project }) {
             initial="hidden"
             animate="visible"
             custom={0.2}
-            className="text-5xl md:text-7xl font-bold tracking-tight text-white mb-6"
+            className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-6"
             style={{ fontFamily: 'var(--font-display, var(--font-playfair))' }}
           >
             {project.title}

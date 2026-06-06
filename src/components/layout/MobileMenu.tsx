@@ -97,7 +97,7 @@ export function MobileMenu({ open, onClose, links }: MobileMenuProps) {
 
                     {/* Link text */}
                     <span
-                      className={`text-3xl sm:text-4xl font-light tracking-tight transition-colors duration-300 ${
+                      className={`text-2xl sm:text-3xl md:text-4xl font-light tracking-tight transition-colors duration-300 ${
                         isActive
                           ? 'text-emerald-400'
                           : 'text-white/80 group-hover:text-white'

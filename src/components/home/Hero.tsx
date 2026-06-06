@@ -230,7 +230,7 @@ export function Hero() {
             { value: '∞', label: 'Curiosity' },
           ].map((stat) => (
             <div key={stat.label} className="stat-item flex flex-col">
-              <span className="text-2xl md:text-3xl font-light text-[var(--color-text-primary)]"
+              <span className="text-xl sm:text-2xl md:text-3xl font-light text-[var(--color-text-primary)]"
                 style={{ fontFamily: 'var(--font-display)' }}>
                 {stat.value}
               </span>

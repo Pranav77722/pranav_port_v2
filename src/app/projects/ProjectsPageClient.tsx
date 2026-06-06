@@ -115,7 +115,7 @@ function ProjectPageCard({ project, index }: {
             <span className="inline-block px-3 py-1 rounded-full text-[9px] font-bold tracking-[0.2em] uppercase bg-black/20 backdrop-blur-md border border-white/10 text-white/60 mb-3">
               {project.category}
             </span>
-            <h3 className="text-3xl font-bold text-white group-hover/card:text-transparent group-hover/card:bg-clip-text group-hover/card:bg-gradient-to-r group-hover/card:from-white group-hover/card:to-[#00ffb3] transition-colors duration-300" style={{ fontFamily: 'var(--font-display)' }}>
+            <h3 className="text-2xl sm:text-3xl font-bold text-white group-hover/card:text-transparent group-hover/card:bg-clip-text group-hover/card:bg-gradient-to-r group-hover/card:from-white group-hover/card:to-[#00ffb3] transition-colors duration-300" style={{ fontFamily: 'var(--font-display)' }}>
               {project.title}
             </h3>
           </div>
@@ -271,7 +271,7 @@ export function ProjectsPageClient() {
                   
                   {/* Title & Status */}
                   <div className="info-item flex flex-col items-start gap-4 mb-6">
-                    <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight" style={{ fontFamily: 'var(--font-display)' }}>
+                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight" style={{ fontFamily: 'var(--font-display)' }}>
                       {project.title}
                     </h2>
                     {status && (

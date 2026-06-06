@@ -188,7 +188,7 @@ function ProjectCard({ project, index }: { project: typeof projects[0]; index: n
             {/* ── Centered project name on gradient ── */}
             <div className="absolute inset-0 flex items-center justify-center z-[10] pointer-events-none">
               <h3
-                className={`${isFeatured ? 'text-4xl md:text-5xl' : 'text-3xl md:text-4xl'} font-bold text-white/90 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#00ffb3] group-hover:to-[#00ccff] transition-all duration-500 leading-tight text-center drop-shadow-lg px-6`}
+                className={`${isFeatured ? 'text-2xl sm:text-3xl md:text-5xl' : 'text-xl sm:text-2xl md:text-4xl'} font-bold text-white/90 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#00ffb3] group-hover:to-[#00ccff] transition-all duration-500 leading-tight text-center drop-shadow-lg px-6`}
                 style={{ fontFamily: 'var(--font-display, var(--font-playfair))' }}
               >
                 {project.title}
@@ -436,7 +436,7 @@ export function ProjectStrip() {
           {/* End of strip heading */}
           <div className="flex-shrink-0 flex flex-col items-center justify-center w-[85vw] md:w-[40vw] lg:w-[35vw] snap-center px-8 relative">
             <h3 
-              className="text-4xl md:text-5xl lg:text-6xl text-white font-medium text-center" 
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white font-medium text-center" 
               style={{ fontFamily: 'var(--font-playfair)' }}
             >
               These are <br/><span className="text-[#00ffb3] italic">My projects</span>
