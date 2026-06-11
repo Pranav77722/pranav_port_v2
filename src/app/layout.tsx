@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter, Inria_Serif, Playfair_Display } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
 import { Navbar } from '@/components/layout/Navbar'
 import { ProfilePanel } from '@/components/layout/ProfilePanel'
@@ -30,6 +31,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body
         className={`${inter.variable} ${inria.variable} ${playfair.variable} antialiased noise-overlay`}
       >
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-E9VQ23C49B" />
+        <Script id="google-analytics">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-E9VQ23C49B');`}
+        </Script>
         <SmoothScrollProvider>
           <Navbar />
           <ProfilePanel />
